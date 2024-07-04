@@ -1,0 +1,18 @@
+.breadcrum {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: #5e5e5e;
+    font-size: 16px;
+    font-weight: 600;
+    margin: 60px 170px;
+    text-transform: capitalize;
+}
+
+/* Media query for iPhone XR */
+@media (max-width: 414px) {
+    .breadcrum {
+        margin: 40px 20px;
+        font-size: 14px;
+    }
+}

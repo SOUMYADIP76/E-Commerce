@@ -1,0 +1,46 @@
+.Newcollection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 100px;
+    width: 100vw;
+}
+
+.Newcollection h1 {
+    color: #171717;
+    font-size: 50px;
+    font-weight: 600;
+}
+
+.Newcollection hr {
+    width: 200px;
+    height: 6px;
+    border-radius: 10px;
+    background-color: #252525;
+}
+
+.collections {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin-top: 50px;
+    gap: 30px;
+}
+
+/* Media query for iPhone XR */
+@media (max-width: 414px) {
+    .Newcollection h1 {
+        font-size: 28px;
+        text-align: center;
+    }
+
+    .Newcollection hr {
+        width: 150px;
+        height: 4px;
+    }
+
+    .collections {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+}

@@ -1,0 +1,109 @@
+.login-signup{
+    width: 100%;
+    height: 80hv;
+    background: #fce3fe;
+    padding-top: 100px;
+
+}
+.login-signup-container{
+    width: 580px;
+    height: 600px;
+    background: white;
+    margin: auto;
+    padding: 40px 60px;
+}
+.login-signup-container h1{
+    margin: 20px 0px;
+}
+.login-signup-fiels{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-top: 30px;
+}
+.login-signup-fiels input{
+    height: 62px;
+    width: 100%;
+    padding-left: 20px;
+    border: 1px solid #c9c9c9;
+    outline: none;
+    color: #5c5c5c;
+    font-size: 18px;
+    border-radius: 5px;
+}
+.login-signup-container button{
+    width: 610px;
+    height: 72px;
+    color: white;
+    background: #ff4141;
+    margin-top: 30px;
+    border: none;
+    font-size: 24px;
+    font-weight: 500;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.loginsignup-login{
+    margin-top: 20px;
+    color: #5c5c5c;
+    font-size: 18px;
+    font-weight: 500;
+}
+.loginsignup-login span{
+    color: #ff4141;
+    font-weight: 600;
+    cursor: pointer;
+}
+.loginsignuo-agree{
+    display: flex;
+    align-items: center;
+    margin-top: 25px;
+    gap: 20px;
+    color: #5c5c5c;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+
+/* Media query for iPhone XR */
+@media (max-width: 414px) {
+    *{
+        margin: 0%;
+        padding: 0%;
+    }
+    .login-signup-container {
+        width: 90%;
+        height: auto;
+        padding: 20px 30px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .login-signup-container button {
+        width: 70vw;
+        height: 60px;
+        font-size: 20px;
+    }
+
+    .login-signup-fields {
+        flex-direction: column; /* Stack input fields vertically */
+        gap: 20px;
+        width: 50px;
+    }
+
+    .login-signup-fields input {
+        /* height: 50px;
+        width: 50px; */
+        font-size: 16px;
+    }
+
+    .loginsignup-login {
+        font-size: 16px;
+    }
+
+    .loginsignup-agree {
+        font-size: 16px;
+        flex-direction: column; /* Stack agree section vertically */
+        gap: 10px;
+    }
+}
